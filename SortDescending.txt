@@ -1,0 +1,11 @@
+function sortDescending(arr) {
+    arr.sort(function(a, b) {
+        return b - a;
+    });
+    return arr;
+}
+
+var myArray = [2,6,1,4,9,5];
+var sortedArray = sortDescending(myArray);
+
+console.log(sortedArray);
